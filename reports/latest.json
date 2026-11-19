@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "2026-11-19T13:26:20.508836+00:00",
+  "page_count": 11,
+  "base_url": "https://muramura-sokuho.pages.dev",
+  "errors": [],
+  "warnings": [
+    "DMMアフィリエイト側の審査、成果報酬、利用料金、最新規約は自動検証していません。"
+  ],
+  "pages": [
+    {
+      "file": "about.html",
+      "title": "サイトについて・編集方針｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "beginner.html",
+      "title": "FANZAを初めて使う方へ｜登録の流れと注意点｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "contact.html",
+      "title": "お問い合わせ｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "guide-doujin.html",
+      "title": "FANZA同人コンテンツの選び方｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "guide-ebook.html",
+      "title": "FANZA電子書籍・コミックの選び方｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "guide-game.html",
+      "title": "FANZAゲームの選び方｜買う前の動作環境チェック｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "guide-video.html",
+      "title": "FANZA動画の選び方｜見放題と単品の違い｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "index.html",
+      "title": "FANZAの選び方ガイド｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "policy.html",
+      "title": "広告ポリシー・プライバシーポリシー｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "price.html",
+      "title": "FANZAの料金・プランの見方｜公式確認ポイント｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "safety.html",
+      "title": "安心・プライバシー｜請求の見え方と解約の確認先｜むらむら速報",
+      "issues": []
+    }
+  ],
+  "ad_candidates": 0
+}
