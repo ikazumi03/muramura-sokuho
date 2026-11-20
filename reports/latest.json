@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-11-20T13:29:57.035490+00:00",
-  "page_count": 14,
+  "timestamp_utc": "2026-11-20T13:33:36.322148+00:00",
+  "page_count": 15,
   "base_url": "https://muramura-sokuho.pages.dev/",
   "errors": [],
   "warnings": [
@@ -25,6 +25,11 @@
     {
       "file": "contact.html",
       "title": "お問い合わせ｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "dlsite.html",
+      "title": "DLsiteの同人・ASMR・ゲームの選び方｜むらむら速報",
       "issues": []
     },
     {
