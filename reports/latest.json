@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-11-20T13:24:42.501115+00:00",
-  "page_count": 11,
+  "timestamp_utc": "2026-11-20T13:29:57.035490+00:00",
+  "page_count": 14,
   "base_url": "https://muramura-sokuho.pages.dev/",
   "errors": [],
   "warnings": [
@@ -18,8 +18,18 @@
       "issues": []
     },
     {
+      "file": "campaign.html",
+      "title": "FANZAのキャンペーン・クーポンの見方｜むらむら速報",
+      "issues": []
+    },
+    {
       "file": "contact.html",
       "title": "お問い合わせ｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "faq.html",
+      "title": "よくある疑問｜むらむら速報",
       "issues": []
     },
     {
@@ -45,6 +55,11 @@
     {
       "file": "index.html",
       "title": "FANZAの選び方ガイド｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "payment.html",
+      "title": "支払い方法を選ぶ前に確認すること｜むらむら速報",
       "issues": []
     },
     {
