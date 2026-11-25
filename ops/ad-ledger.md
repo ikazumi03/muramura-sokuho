@@ -8,4 +8,5 @@
 - 週次監査のときに、終了した案件やリンク切れがないか台帳と突き合わせる
 
 ## 変更履歴
+- 2026-11-26：DLsite枠の棚卸しを実施。DLsite指定枠（dlsite-top／dlsite-sidebar／dlsite-bottom／index-dlsite）は全て設置済みで、空のDLsite指定枠は無し（新規設置なし）。空きFANZA枠32枠分の必要コード一覧を ops/fanza-codes-needed.md に作成。広告台帳.csv のFANZA枠32件の状態表記を「未設置（承認待ち）」から「未設置（DMMコード取得待ち）」へ更新（DMM審査通過済みのため）。アフィリエイトコードは無変更。
 - 2026-11-26：広告枠のレイアウトのみ修正（枠定義・コード変更なし）。assets/style.css で「広告」ラベルを absolute 配置から通常フロー（枠内上部の1行）に変更し、重なりを解消。ウィジェット枠（ins.widget-banner／a／iframe）に max-width:100% を追加し、スマホ幅でも枠内に収まるよう調整。アフィリエイトコード（murasoku-001／aid=murasoku）は無変更。
