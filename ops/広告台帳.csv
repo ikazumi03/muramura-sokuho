@@ -25,8 +25,8 @@ guide-game-top,guide-game.html,top,FANZAゲーム,300x250,rectangle,未設置（
 guide-video-bottom,guide-video.html,bottom,FANZA動画,300x250,rectangle,未設置（承認待ち）,,,,
 guide-video-sidebar,guide-video.html,sidebar,FANZA動画,300x250,rectangle,未設置（承認待ち）,,,,
 guide-video-top,guide-video.html,top,FANZA動画,300x250,rectangle,未設置（承認待ち）,,,,
-index-bottom,index.html,bottom,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
-index-middle,index.html,middle,FANZAブックス,728x90,leaderboard,未設置（承認待ち）,,,,
+index-bottom,index.html,bottom,FANZA総合,300x250,rectangle,設置済み,2026-11-25,DMM公式ウィジェットバナー（banner_id 2124／FANZAブックス90%OFFクーポン）,確認済み,アフィリエイトID murasoku-001
+index-middle,index.html,middle,FANZAブックス,728x90,leaderboard,設置済み,2026-11-25,DMM公式ウィジェットバナー（banner_id 2124_640_200／FANZAブックス90%OFFクーポン）,確認済み,推奨728x90の代替で640x200を設置。ID murasoku-001
 payment-bottom,payment.html,bottom,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
 payment-sidebar,payment.html,sidebar,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
 payment-top,payment.html,top,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
@@ -36,3 +36,4 @@ price-sidebar,price.html,sidebar,FANZA総合,300x250,rectangle,未設置（承�
 price-top,price.html,top,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
 safety-bottom,safety.html,bottom,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
 safety-sidebar,safety.html,sidebar,FANZA総合,300x250,rectangle,未設置（承認待ち）,,,,
+index-dlsite,index.html,bottom,DLsite,テキスト,link,設置済み,2026-11-25,DLsite公式テキストリンク（aid=murasoku／maniaxトップ）,確認済み,バナーコード取得後に差し替え予定
