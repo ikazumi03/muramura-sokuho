@@ -41,6 +41,10 @@
 .verdict-main{font-size:19px;font-weight:800;margin:0;line-height:1.7}
 .verdict-sub{font-size:13px;color:#e6ccd2;margin:8px 0 0}
 .placeholder-card{border:2px dashed rgba(232,194,104,.45);border-radius:14px;padding:30px;text-align:center;color:var(--muted);font-size:13px;background:#1d0d16}
+.genre-chips{display:flex;flex-wrap:wrap;gap:9px}
+.genre-chips .chip{display:inline-block;padding:8px 16px;border:1px solid var(--line);border-radius:50px;font-size:13px;font-weight:700;color:var(--txt);background:#1d0d16;transition:border-color .2s,background .2s}
+.genre-chips .chip:hover{border-color:#ff4d79;color:#ff8296}
+.genre-chips .chip.current{background:linear-gradient(130deg,#a1123a,#6d0a2c);border-color:#ff4d79;color:#fff;pointer-events:none}
 @media(max-width:650px){
   .rank-grid{grid-template-columns:repeat(2,1fr);gap:12px}
   .work-body{padding:11px 12px 13px}

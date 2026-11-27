@@ -86,3 +86,61 @@
 | av-sticky / doujin-sticky / books-sticky / game-sticky | カテゴリ4ページ | 画面下部固定（モバイル≤768pxのみ） | 1150_320_50 | 実写GIF動画・アニメーション。index-sticky と同一パターン |
 
 - 旧ガイドページ（guide-*.html、dlsite.html、FANZA総合ページ）はこのフェーズでは無変更。メインnavからは外し、ランキングページへ差し替え。
+
+## 2026-11-27 Phase 2: 画像の高解像度化＋ジャンル別ページ新設
+
+- 全作品カードの画像を imageURL.list（小）から imageURL.large（大）に切替（APIが large を返さない作品のみ list にフォールバック）。
+- ジャンル別ランキングページを新設（各カテゴリ最大12ジャンル × TOP30）。AVはキュレーション優先リスト、同人・コミックス・ゲームは各フロアTOP30のジャンル出現頻度で自動選出（キャンペーン・形式タグは除外）。選出は生成スクリプト（build_rankings.py）が毎日自動で行うため、顔ぶれは日次で変わりうる。下表は 2026-11-27 時点の設置分。
+- 各ジャンルページの広告枠は3枠: ランキング10位の後ろに mid1（books のみ 738_300_250、他は 2124_300_250）、20位の後ろに mid2（1150_300_250・アニメーションGIF）、モバイル固定バー sticky（1150_320_50）。
+- カテゴリ4ページの sticky 枠（av/doujin/books/game-sticky）が広告台帳.csv 未登録だったため、今回あわせて登録した。
+
+| ページ | ジャンル | 枠ID（接頭辞） | mid1 banner_id |
+|---|---|---|---|
+| av-genre-1014.html | AV × 熟女 | av-genre-1014-mid1 / av-genre-1014-mid2 / av-genre-1014-sticky | 2124_300_250 |
+| av-genre-1018.html | AV × 女子校生 | av-genre-1018-mid1 / av-genre-1018-mid2 / av-genre-1018-sticky | 2124_300_250 |
+| av-genre-1027.html | AV × 美少女 | av-genre-1027-mid1 / av-genre-1027-mid2 / av-genre-1027-sticky | 2124_300_250 |
+| av-genre-1031.html | AV × 痴女 | av-genre-1031-mid1 / av-genre-1031-mid2 / av-genre-1031-sticky | 2124_300_250 |
+| av-genre-1039.html | AV × 人妻・主婦 | av-genre-1039-mid1 / av-genre-1039-mid2 / av-genre-1039-sticky | 2124_300_250 |
+| av-genre-2001.html | AV × 巨乳 | av-genre-2001-mid1 / av-genre-2001-mid2 / av-genre-2001-sticky | 2124_300_250 |
+| av-genre-4006.html | AV × ナンパ | av-genre-4006-mid1 / av-genre-4006-mid2 / av-genre-4006-sticky | 2124_300_250 |
+| av-genre-4024.html | AV × 素人 | av-genre-4024-mid1 / av-genre-4024-mid2 / av-genre-4024-sticky | 2124_300_250 |
+| av-genre-4031.html | AV × コスプレ | av-genre-4031-mid1 / av-genre-4031-mid2 / av-genre-4031-sticky | 2124_300_250 |
+| av-genre-5001.html | AV × 中出し | av-genre-5001-mid1 / av-genre-5001-mid2 / av-genre-5001-sticky | 2124_300_250 |
+| av-genre-5002.html | AV × フェラ | av-genre-5002-mid1 / av-genre-5002-mid2 / av-genre-5002-sticky | 2124_300_250 |
+| av-genre-5019.html | AV × パイズリ | av-genre-5019-mid1 / av-genre-5019-mid2 / av-genre-5019-sticky | 2124_300_250 |
+| books-genre-1018.html | コミックス × 女子校生 | books-genre-1018-mid1 / books-genre-1018-mid2 / books-genre-1018-sticky | 738_300_250 |
+| books-genre-102.html | コミックス × 美乳 | books-genre-102-mid1 / books-genre-102-mid2 / books-genre-102-sticky | 738_300_250 |
+| books-genre-1027.html | コミックス × 美少女 | books-genre-1027-mid1 / books-genre-1027-mid2 / books-genre-1027-sticky | 738_300_250 |
+| books-genre-2001.html | コミックス × 巨乳 | books-genre-2001-mid1 / books-genre-2001-mid2 / books-genre-2001-sticky | 738_300_250 |
+| books-genre-4106.html | コミックス × 騎乗位 | books-genre-4106-mid1 / books-genre-4106-mid2 / books-genre-4106-sticky | 738_300_250 |
+| books-genre-48.html | コミックス × 制服 | books-genre-48-mid1 / books-genre-48-mid2 / books-genre-48-sticky | 738_300_250 |
+| books-genre-5001.html | コミックス × 中出し | books-genre-5001-mid1 / books-genre-5001-mid2 / books-genre-5001-sticky | 738_300_250 |
+| books-genre-5002.html | コミックス × フェラ | books-genre-5002-mid1 / books-genre-5002-mid2 / books-genre-5002-sticky | 738_300_250 |
+| books-genre-5003.html | コミックス × ぶっかけ | books-genre-5003-mid1 / books-genre-5003-mid2 / books-genre-5003-sticky | 738_300_250 |
+| books-genre-5019.html | コミックス × パイズリ | books-genre-5019-mid1 / books-genre-5019-mid2 / books-genre-5019-sticky | 738_300_250 |
+| books-genre-55.html | コミックス × 処女 | books-genre-55-mid1 / books-genre-55-mid2 / books-genre-55-sticky | 738_300_250 |
+| books-genre-583.html | コミックス × ラブ＆H | books-genre-583-mid1 / books-genre-583-mid2 / books-genre-583-sticky | 738_300_250 |
+| doujin-genre-1039.html | 同人 × 人妻・主婦 | doujin-genre-1039-mid1 / doujin-genre-1039-mid2 / doujin-genre-1039-sticky | 2124_300_250 |
+| doujin-genre-152004.html | 同人 × ラブラブ・あまあま | doujin-genre-152004-mid1 / doujin-genre-152004-mid2 / doujin-genre-152004-sticky | 2124_300_250 |
+| doujin-genre-153003.html | 同人 × おっぱい | doujin-genre-153003-mid1 / doujin-genre-153003-mid2 / doujin-genre-153003-sticky | 2124_300_250 |
+| doujin-genre-2001.html | 同人 × 巨乳 | doujin-genre-2001-mid1 / doujin-genre-2001-mid2 / doujin-genre-2001-sticky | 2124_300_250 |
+| doujin-genre-4111.html | 同人 × 寝取り・寝取られ・NTR | doujin-genre-4111-mid1 / doujin-genre-4111-mid2 / doujin-genre-4111-sticky | 2124_300_250 |
+| doujin-genre-48.html | 同人 × 制服 | doujin-genre-48-mid1 / doujin-genre-48-mid2 / doujin-genre-48-sticky | 2124_300_250 |
+| doujin-genre-5001.html | 同人 × 中出し | doujin-genre-5001-mid1 / doujin-genre-5001-mid2 / doujin-genre-5001-sticky | 2124_300_250 |
+| doujin-genre-5002.html | 同人 × フェラ | doujin-genre-5002-mid1 / doujin-genre-5002-mid2 / doujin-genre-5002-sticky | 2124_300_250 |
+| doujin-genre-5003.html | 同人 × ぶっかけ | doujin-genre-5003-mid1 / doujin-genre-5003-mid2 / doujin-genre-5003-sticky | 2124_300_250 |
+| doujin-genre-5005.html | 同人 × アナル | doujin-genre-5005-mid1 / doujin-genre-5005-mid2 / doujin-genre-5005-sticky | 2124_300_250 |
+| doujin-genre-5019.html | 同人 × パイズリ | doujin-genre-5019-mid1 / doujin-genre-5019-mid2 / doujin-genre-5019-sticky | 2124_300_250 |
+| doujin-genre-7110.html | 同人 × シミュレーション | doujin-genre-7110-mid1 / doujin-genre-7110-mid2 / doujin-genre-7110-sticky | 2124_300_250 |
+| game-genre-301085.html | ゲーム × CGがいい | game-genre-301085-mid1 / game-genre-301085-mid2 / game-genre-301085-sticky | 2124_300_250 |
+| game-genre-301088.html | ゲーム × キャラクターがいい | game-genre-301088-mid1 / game-genre-301088-mid2 / game-genre-301088-sticky | 2124_300_250 |
+| game-genre-301090.html | ゲーム × シナリオがいい | game-genre-301090-mid1 / game-genre-301090-mid2 / game-genre-301090-sticky | 2124_300_250 |
+| game-genre-301119.html | ゲーム × 世界観がいい | game-genre-301119-mid1 / game-genre-301119-mid2 / game-genre-301119-sticky | 2124_300_250 |
+| game-genre-7037.html | ゲーム × 巨乳 | game-genre-7037-mid1 / game-genre-7037-mid2 / game-genre-7037-sticky | 2124_300_250 |
+| game-genre-7203.html | ゲーム × 辱め | game-genre-7203-mid1 / game-genre-7203-mid2 / game-genre-7203-sticky | 2124_300_250 |
+| game-genre-7213.html | ゲーム × 恋愛 | game-genre-7213-mid1 / game-genre-7213-mid2 / game-genre-7213-sticky | 2124_300_250 |
+| game-genre-7252.html | ゲーム × ハーレム | game-genre-7252-mid1 / game-genre-7252-mid2 / game-genre-7252-sticky | 2124_300_250 |
+| game-genre-7301.html | ゲーム × 制服 | game-genre-7301-mid1 / game-genre-7301-mid2 / game-genre-7301-sticky | 2124_300_250 |
+| game-genre-7466.html | ゲーム × 萌えゲーアワード/美少女ゲームアワード受賞作品 | game-genre-7466-mid1 / game-genre-7466-mid2 / game-genre-7466-sticky | 2124_300_250 |
+| game-genre-7501.html | ゲーム × ファンタジー | game-genre-7501-mid1 / game-genre-7501-mid2 / game-genre-7501-sticky | 2124_300_250 |
+| game-genre-7502.html | ゲーム × 学園もの | game-genre-7502-mid1 / game-genre-7502-mid2 / game-genre-7502-sticky | 2124_300_250 |
