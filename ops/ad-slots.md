@@ -70,3 +70,19 @@
 | index-sticky / guide-video-sticky / guide-game-sticky / guide-doujin-sticky / guide-ebook-sticky | index＋ガイド4ページ | 画面下部固定（モバイル≤768pxのみ） | 1150_320_50 | 実写GIF動画・アニメーション。×ボタンで閉じるとセッション中は再表示しない（sessionStorage）。本文が隠れないようモバイル時は body に padding-bottom を追加 |
 
 未使用のまま残したコード：1150_320_100、1148_320_50、164_300_250、67_468_60、1326_300_250、258_336_280（枠数目標に合わせて見送り。今後の差し替え・増枠候補）
+
+## 2026-11-27 ランキングポータル化（リデザイン）
+
+ガイド型トップを廃し、FANZAランキングポータルへ作り替え（参考：サキュ姉妹／FANZA Guide／順位変動つきランキングブログ）。
+- index.html を全面再生成：今日のおすすめ（日替わり8作品）／カテゴリ別TOP10（AV・同人・コミックス・ゲーム）／セール中のおすすめ（40%OFF以上・横断10作品）／新作（発売日順10作品）。既存の index 枠8枠（index-anim-top / index-middle / index-anim-game / index-large / index-bottom / index-dlsite / index-wide-doujin / index-sticky）は全て同一コード・同一ラベルで同等位置に保持。
+- カテゴリページを新設：av.html / doujin.html / books.html / game.html（各TOP30・結論ボックス・順位変動マーク▲▼/NEWつき）。データは DMM WebサービスAPI（ItemList, affiliate_id murasoku-990）で生成し、生成スクリプトは ~/workspace/muramura-tools/build_rankings.py（APIキーはリポジトリ外の .env で管理）。
+- 新設ページの広告枠（各ページ2枠＋モバイル固定バー）:
+
+| 枠ID | ページ | 位置 | banner_id | 案件 |
+|---|---|---|---|---|
+| av-mid1 / doujin-mid1 / game-mid1 | av.html / doujin.html / game.html | ランキング10位と11位の間 | 2124_300_250 | FANZAブックス90%OFFクーポン |
+| books-mid1 | books.html | ランキング10位と11位の間 | 738_300_250 | ERO TOON |
+| av-mid2 / doujin-mid2 / books-mid2 / game-mid2 | カテゴリ4ページ | ランキング20位と21位の間 | 1150_300_250 | 実写GIF動画・アニメーション |
+| av-sticky / doujin-sticky / books-sticky / game-sticky | カテゴリ4ページ | 画面下部固定（モバイル≤768pxのみ） | 1150_320_50 | 実写GIF動画・アニメーション。index-sticky と同一パターン |
+
+- 旧ガイドページ（guide-*.html、dlsite.html、FANZA総合ページ）はこのフェーズでは無変更。メインnavからは外し、ランキングページへ差し替え。

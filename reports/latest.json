@@ -1,9 +1,10 @@
 {
-  "timestamp_utc": "2026-11-27T09:07:47.035861+00:00",
-  "page_count": 15,
-  "base_url": "https://muramura-sokuho.pages.dev/",
+  "timestamp_utc": "2026-11-27T09:20:58.921576+00:00",
+  "page_count": 19,
+  "base_url": "",
   "errors": [],
   "warnings": [
+    "公開URLは未設定です。GitHubの変数 SITE_URL に pages.dev URLを設定可能です（任意）。",
     "DMMアフィリエイト側の審査、成果報酬、利用料金、最新規約は自動検証していません。"
   ],
   "pages": [
@@ -13,8 +14,18 @@
       "issues": []
     },
     {
+      "file": "av.html",
+      "title": "AV人気ランキングTOP30｜むらむら速報",
+      "issues": []
+    },
+    {
       "file": "beginner.html",
       "title": "FANZAを初めて使う方へ｜登録の流れと注意点｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "books.html",
+      "title": "コミックス人気ランキングTOP30｜むらむら速報",
       "issues": []
     },
     {
@@ -33,8 +44,18 @@
       "issues": []
     },
     {
+      "file": "doujin.html",
+      "title": "同人人気ランキングTOP30｜むらむら速報",
+      "issues": []
+    },
+    {
       "file": "faq.html",
       "title": "よくある疑問｜むらむら速報",
+      "issues": []
+    },
+    {
+      "file": "game.html",
+      "title": "ゲーム人気ランキングTOP30｜むらむら速報",
       "issues": []
     },
     {
@@ -59,7 +80,7 @@
     },
     {
       "file": "index.html",
-      "title": "FANZAの選び方ガイド｜むらむら速報",
+      "title": "FANZA人気ランキング・おすすめ作品｜むらむら速報",
       "issues": []
     },
     {
