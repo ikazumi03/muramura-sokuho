@@ -37,3 +37,31 @@ price-top,price.html,top,FANZA総合,300x250,rectangle,設置済み,2026-11-26,D
 safety-bottom,safety.html,bottom,FANZA総合,300x250,rectangle,設置済み,2026-11-26,DMM公式ウィジェットバナー（banner_id 2124_300_250／FANZAブックス90%OFFクーポン）,確認済み,アフィリエイトID murasoku-001
 safety-sidebar,safety.html,sidebar,FANZA総合,300x250,rectangle,設置済み,2026-11-26,DMM公式ウィジェットバナー（banner_id 2124_300_250／FANZAブックス90%OFFクーポン）,確認済み,アフィリエイトID murasoku-001
 index-dlsite,index.html,bottom,DLsite,テキスト,link,設置済み,2026-11-25,DLsite公式テキストリンク（aid=murasoku／maniaxトップ）,確認済み,バナーコード取得後に差し替え予定
+index-anim-top,index.html,middle,FANZA動画,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_300_250／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+index-anim-game,index.html,middle,FANZAゲーム,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2198_300_250／FANZA GAMES 夜勤病棟 GIF）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+index-large,index.html,middle,FANZAゲーム,600x500,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2198_600_500／FANZA GAMES 夜勤病棟 GIF）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+index-wide-doujin,index.html,middle,FANZA同人,640x200,leaderboard,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2210_640_200／FANZA冬の同人祭）,確認済み,アフィリエイトID murasoku-001。バナー表示終了 2027-02-01
+index-sticky,index.html,sticky,FANZA動画,320x50,mobile-banner,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_320_50／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF。モバイル固定バー（768px以下表示・閉じるボタン付き）
+guide-video-mid1,guide-video.html,middle,FANZA動画,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_300_250／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+guide-video-mid2,guide-video.html,middle,FANZA動画,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1148_300_250／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+guide-video-mid3,guide-video.html,middle,FANZA動画,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 123_300_250／月額動画）,確認済み,アフィリエイトID murasoku-001
+guide-video-sticky,guide-video.html,sticky,FANZA動画,320x50,mobile-banner,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_320_50／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF。モバイル固定バー（768px以下表示・閉じるボタン付き）
+guide-game-mid1,guide-game.html,middle,FANZAゲーム,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2198_300_250／FANZA GAMES 夜勤病棟 GIF）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+guide-game-mid2,guide-game.html,middle,FANZAゲーム,336x280,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2201_336_280／FANZA GAMES GIF）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF
+guide-game-mid3,guide-game.html,middle,FANZAゲーム,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2187_300_250／FANZAゲーム ウィンターセール）,確認済み,アフィリエイトID murasoku-001。バナー表示終了 2027-01-13
+guide-game-sticky,guide-game.html,sticky,FANZA動画,320x50,mobile-banner,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_320_50／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF。モバイル固定バー（768px以下表示・閉じるボタン付き）
+guide-doujin-mid1,guide-doujin.html,middle,FANZA同人,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2210_300_250／FANZA冬の同人祭）,確認済み,アフィリエイトID murasoku-001。バナー表示終了 2027-02-01
+guide-doujin-wide,guide-doujin.html,middle,FANZA同人,640x200,leaderboard,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2210_640_200／FANZA冬の同人祭）,確認済み,アフィリエイトID murasoku-001。バナー表示終了 2027-02-01
+guide-doujin-sticky,guide-doujin.html,sticky,FANZA動画,320x50,mobile-banner,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_320_50／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF。モバイル固定バー（768px以下表示・閉じるボタン付き）
+guide-ebook-mid1,guide-ebook.html,middle,FANZAブックス,640x200,leaderboard,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 738_640_200／ERO TOON）,確認済み,アフィリエイトID murasoku-001
+guide-ebook-large,guide-ebook.html,middle,FANZAブックス,600x500,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 738_600_500／ERO TOON）,確認済み,アフィリエイトID murasoku-001
+guide-ebook-sticky,guide-ebook.html,sticky,FANZA動画,320x50,mobile-banner,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1150_320_50／実写GIF動画）,確認済み,アフィリエイトID murasoku-001。アニメーションGIF。モバイル固定バー（768px以下表示・閉じるボタン付き）
+beginner-mid,beginner.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 83_300_250／ライブチャット）,確認済み,アフィリエイトID murasoku-001
+price-mid,price.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1277_300_250／FANZA TV）,確認済み,アフィリエイトID murasoku-001
+campaign-mid,campaign.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1506_300_250／通販・大人のおもちゃ）,確認済み,アフィリエイトID murasoku-001
+payment-mid,payment.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 2134_300_250／キャラチャット）,確認済み,アフィリエイトID murasoku-001
+faq-mid,faq.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 860_300_250／オンラインくじ）,確認済み,アフィリエイトID murasoku-001
+safety-mid,safety.html,middle,FANZA総合,640x100,leaderboard,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1169_640_100／FANZAキャッチ）,確認済み,アフィリエイトID murasoku-001
+about-mid,about.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 83_300_250／ライブチャット）,確認済み,アフィリエイトID murasoku-001
+policy-mid,policy.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1277_300_250／FANZA TV）,確認済み,アフィリエイトID murasoku-001
+contact-mid,contact.html,middle,FANZA総合,300x250,rectangle,設置済み,2026-11-27,DMM公式ウィジェットバナー（banner_id 1506_300_250／通販・大人のおもちゃ）,確認済み,アフィリエイトID murasoku-001

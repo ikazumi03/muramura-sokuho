@@ -1,10 +1,9 @@
 {
-  "timestamp_utc": "2026-11-25T15:18:22.200270+00:00",
+  "timestamp_utc": "2026-11-27T09:07:47.035861+00:00",
   "page_count": 15,
-  "base_url": "",
+  "base_url": "https://muramura-sokuho.pages.dev/",
   "errors": [],
   "warnings": [
-    "公開URLは未設定です。GitHubの変数 SITE_URL に pages.dev URLを設定可能です（任意）。",
     "DMMアフィリエイト側の審査、成果報酬、利用料金、最新規約は自動検証していません。"
   ],
   "pages": [

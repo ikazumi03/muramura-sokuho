@@ -17,3 +17,13 @@
 .ad-slot--middle,.ad-slot--bottom{max-width:760px;margin-left:auto;margin-right:auto}
 .sidebar .ad-slot{font-size:12px}
 @media(max-width:650px){.ad-slot{padding:20px 14px}.ad-slot--sidebar{display:none}}
+
+/* Sticky mobile ad bar (2026-11-27) */
+.sticky-ad{position:fixed;left:0;right:0;bottom:0;z-index:900;display:none;background:rgba(16,5,11,.97);border-top:1px solid rgba(232,194,104,.55);padding:8px 10px calc(8px + env(safe-area-inset-bottom));align-items:center;justify-content:center;gap:10px}
+.sticky-ad[hidden]{display:none!important}
+.sticky-ad .ad-label{flex:0 0 auto;font-size:10px;letter-spacing:.18em;color:var(--gold);border:1px solid rgba(232,194,104,.5);border-radius:50px;padding:2px 9px}
+.sticky-ad-body{flex:0 1 auto;line-height:0}
+.sticky-ad-body ins.widget-banner{display:block;max-width:100%}
+.sticky-ad-body img,.sticky-ad-body iframe{max-width:100%;height:auto;border:0;display:block;margin:0 auto}
+.sticky-ad-close{flex:0 0 auto;background:#ffffff10;border:1px solid var(--line);color:var(--txt);width:34px;height:34px;border-radius:50%;font-size:18px;line-height:1;display:flex;align-items:center;justify-content:center;padding:0}
+@media(max-width:768px){.sticky-ad:not([hidden]){display:flex}body.has-sticky-ad{padding-bottom:88px}}
